@@ -1,6 +1,10 @@
 // 小手調べ
 function setup(){
-  for(let i = 0; i < 10; i++){
-    // BLANK[1]
+  createCanvas(200, 200);
+  strokeWeight(2);
+  noFill();
+  for(let x = 0; x < 100; x = x + 10) 
+  ellipse(100, 100, x);
+  //Blank[1]
   }
-}
+  
