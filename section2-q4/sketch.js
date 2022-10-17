@@ -4,7 +4,6 @@ function setup() {
   createCanvas(270, 180);
   // noStroke();
   background(255);
-
   let d = height / 9; // 縞1本の太さ
 
   for(let i = 0; i < 9; i++){
