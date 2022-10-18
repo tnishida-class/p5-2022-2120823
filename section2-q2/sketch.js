@@ -19,7 +19,7 @@ function setup() {
         fill(0);
       }
 
-      
+      console.log(i , j);
       lect(i * 25, j * 25, 25, 25);
         
       
