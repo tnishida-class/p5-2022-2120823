@@ -5,7 +5,7 @@ let cycle;
 function setup(){
   createCanvas(400, 400);
   count = 0;
-  cycle = 45;
+  cycle = 60;
 }
 
 function draw(){
