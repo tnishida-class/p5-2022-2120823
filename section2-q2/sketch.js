@@ -22,21 +22,30 @@ function setup() {
 
 function draw(){
   fill(255, 0, 0);
-  let x = 30
-  while (x < 160){
-    ellipse(x, 10, 15)
-    x = x + 40
-  }
-  let y = 10
-  while (y < 160){
-    ellipse(y, 30, 15)
-    y = y + 40
-  }
-  let p = 30; 
-  while (p < 160){
-    ellipse(p, 10, 15)
-    p = p + 40
-  }
+  ellipse(30, 10, 15);
+  ellipse(70, 10, 15);
+  ellipse(110, 10, 15);
+  ellipse(150, 10, 15);
+  ellipse(10, 30, 15);
+  ellipse(50, 30, 15);
+  ellipse(90, 30, 15);
+  ellipse(130, 30, 15);
+  ellipse(30, 50, 15);
+  ellipse(70, 50, 15);
+  ellipse(110, 50, 15);
+  ellipse(150, 50, 15);
 
-  
+  fill(0);
+  ellipse(10, 110, 15);
+  ellipse(50, 110, 15);
+  ellipse(90, 110, 15);
+  ellipse(130, 110, 15);
+  ellipse(30, 130, 15);
+  ellipse(70, 130, 15);
+  ellipse(110, 130, 15);
+  ellipse(150, 130, 15);
+  ellipse(10, 150, 15);
+  ellipse(50, 150, 15);
+  ellipse(90, 150, 15);
+  ellipse(130, 150, 15);
 }
