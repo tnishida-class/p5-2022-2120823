@@ -32,10 +32,10 @@ function draw(){
     ellipse(y, 30, 15)
     y = y + 40
   }
-  let a = 30
-  while (a < 160){
-    ellipse(a, 10, 15)
-    a = a + 40
+  let p = 30; 
+  while (p < 160){
+    ellipse(p, 10, 15)
+    p = p + 40
   }
 
   
