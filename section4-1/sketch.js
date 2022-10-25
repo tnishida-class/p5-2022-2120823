@@ -24,6 +24,7 @@ function setup(){
   largest = 0;
   for(let i = 0; i < scores.length; i++){
     // BLANK[2]　ヒント：今までの最大値 largest と scores[i] を比較する
+
   }
 
   smallest = 100;
@@ -41,8 +42,8 @@ function setup(){
     const dx = width / scores.length;
     const h = height * scores[i] / 100;
     // BLANK[4] ヒント: 条件分岐を使って色を変更します
-    rect(i * dx + 2, height - h, dx - 4, h);
     fill(0);
+    rect(i * dx + 2, height - h, dx - 4, h);
     text(scores[i].toPrecision(3), i * dx, height - h);
   }
 
