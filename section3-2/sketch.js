@@ -1,7 +1,7 @@
 // テキスト「アニメーションの基本」
 let x, y, vx, vy;
 const g = 1; // 重力加速度
-const vyMax = 30;
+const vyMax = 10;
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
