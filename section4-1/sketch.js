@@ -70,5 +70,5 @@ function setup(){
   const ay = height - height * average / 100;
   stroke(0,255,0);
   line(0, ay, width, ay);
-  text(average.toPrecision(3), 0, height - average);
+  text(average.toPrecision(3), 0, width - width * average / 100);
 }
