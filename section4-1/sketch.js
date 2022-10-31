@@ -20,8 +20,8 @@ function setup(){
   // ここから平均・最大・最小を求めます
   let average, largest, smallest;
   // BLANK[1]　平均値（ヒント average = 合計 / 配列の長さ）
-  for(let i = 0; i < 10; i ++){
-    average= sum / 10;
+  for(let i = 0; i < scores.length; i ++){
+    average= sum / scores.length;
   }
   console.log(average);
 
@@ -70,7 +70,5 @@ function setup(){
   const ay = height - height * average / 100;
   stroke(0,255,0);
   line(0, ay, width, ay);
-  stroke(0);
-  fill(0);
-  text(average.toPrecision(3), i * dx, height - h);
+  text(average.toPrecision(3), 0, height - average);
 }
