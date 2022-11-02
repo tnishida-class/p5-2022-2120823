@@ -20,4 +20,3 @@ function setup(){
 
 
 
-// ヒント：section5-2 にある star 関数をここにコピーして、 draw 内で ellipse の代わりに使おう
