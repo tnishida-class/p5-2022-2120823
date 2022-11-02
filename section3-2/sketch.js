@@ -7,7 +7,7 @@ function setup(){
   createCanvas(windowWidth, windowHeight);
   x = width / 2;
   y = height / 2;
-  vx = 8;
+  //vx = 8;
   vy = 8;
 }
 

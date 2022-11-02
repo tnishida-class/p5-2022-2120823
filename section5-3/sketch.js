@@ -5,6 +5,7 @@ function setup(){
 
   // isLeapYear の動作確認のため console に出力しています
   for(let i = 2000; i <= 2100; i++){
+    
     if(isLeapYear(i)){
       console.log(i + "年はうるう年です");
     }
